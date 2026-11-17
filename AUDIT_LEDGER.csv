@@ -1,0 +1,9 @@
+claim_id,paper,year,claim,reported_value,primary_threshold,snapshot_used,null_model_used,dimensions_to_stress,status
+A01,Lin et al. (Nature),2024,Giant strongly-connected component covers 93.3% of neurons,93.3%,5,v630,none,threshold x snapshot,planned
+A02,Lin et al. (Nature),2024,Giant weakly-connected component covers 98.8% of neurons,98.8%,5,v630,none,threshold x snapshot,planned
+A03,Lin et al. (Nature),2024,Removing highest-degree neurons splits network along hemispheric lines,split at ~degree 50 onward,5,v630,none,threshold x snapshot x removal-rule,planned
+A04,Lin et al. (Nature),2024,Rich-club regime (degree>37) covers ~30% of brain; 10 with in-degree only; none with out-degree only,~30% of neurons,5,v630,binary configuration model,threshold x RC-cutoff x snapshot x null-model,planned
+A05,Lin et al. (Nature),2024,Spectral attractor nodes (3% of neurons) dominate walk flow and concentrate in GNG,3% of neurons,5,v630,none,threshold x snapshot,planned
+A06,Lin et al. (Nature),2024,Reciprocity of connections,0.138,5,v630,ER/CFG,threshold x snapshot,planned
+A07,Lin et al. (Nature),2024,Clustering coefficient and small-worldness,0.0463; sigma=141,5,v630,ER/CFG/null hybrids,threshold x snapshot x null-model,planned
+A08,Lin et al. (Nature),2024,Motif over/under-representation; reciprocal pairs dominated by excitatory-inhibitory pairs,over-rep: CDAGIJ; under: BEFK,5,v630,Erdos-Renyi + CFG,threshold x snapshot x NT-confidence-filter,planned
